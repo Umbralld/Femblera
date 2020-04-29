@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="328.0" prefWidth="470.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView accessibleRole="BUTTON" fitHeight="200.0" fitWidth="212.0" layoutX="11.0" layoutY="43.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@Image/PointOfSale_icon.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="223.0" fitWidth="212.0" layoutX="247.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Instagram_icon.JPG" />
+         </image>
+      </ImageView>
+      <Label layoutX="37.0" layoutY="234.0" prefHeight="50.0" prefWidth="195.0" text="Point of sale">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="234.0" text="Instagram">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

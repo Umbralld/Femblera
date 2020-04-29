@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="250.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="4.0" layoutY="62.0" text="Були введені некоректні данні!" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="88.0" text="Спробуйте ще раз" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
